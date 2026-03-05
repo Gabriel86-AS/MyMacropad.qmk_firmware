@@ -1,0 +1,96 @@
+{
+    "manufacturer": "Gabriel Anaya",
+    "keyboard_name": "my7keykeyboard",
+    "maintainer": "gebliar",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "unicode": true
+    },
+    "matrix_pins": {
+        "direct": [
+            [
+                "GP0",
+                "GP1",
+                "GP2",
+                "GP3",
+                "GP4",
+                "GP5",
+                "GP6"
+            ]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "matrix": [
+                        0,
+                        0
+                    ],
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        0,
+                        1
+                    ],
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        0,
+                        2
+                    ],
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        0,
+                        3
+                    ],
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        0,
+                        4
+                    ],
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        0,
+                        5
+                    ],
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        0,
+                        6
+                    ],
+                    "x": 2,
+                    "y": 2
+                }
+            ]
+        }
+    }
+}
